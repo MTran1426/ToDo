@@ -1,0 +1,54 @@
+{
+    "users": [
+        {
+            "id": "1",
+            "category": "friends",
+            "title": "Movie Night",
+            "isComplete": true,
+            "startDate": "Wednesday September 3rd",
+            "startTime":"9:00pm",
+            "endDate": "Thursday September 4th",
+            "endTime":"12:00am"
+        },
+        {
+            "id": "2",
+            "category": "friends",
+            "title": "Going for Coffee",
+            "isComplete": true,
+            "startDate": "Monday September 6th",
+            "startTime":"8:00am",
+            "endDate": "Monday September 6th",
+            "endTime":"10:00am"
+        },
+        {
+            "id": "3",
+            "category": "friends",
+            "title": "Job Interview at friends place",
+            "isComplete": true,
+            "startDate": "Wednesday September 8th",
+            "startTime":"11:00am",
+            "endDate": "Wednesday September 8th",
+            "endTime":"1:00pm"
+        },
+        {
+            "id": "4",
+            "category": "friends",
+            "title": "Night out with the boys",
+            "isComplete": true,
+            "startDate": "Saturday September 18th",
+            "startTime":"9:00pm",
+            "endDate": "Sunday September 19th",
+            "endTime":"9:00am"
+        },
+        {
+            "id": "5",
+            "category": "friends",
+            "title": "Study Group Meeting",
+            "isComplete": true,
+            "startDate": "Wednesday September 27th",
+            "startTime":"3:00pm",
+            "endDate": "Wednesday September 27th",
+            "endTime":"7:00pm"
+        }
+    ]
+}
