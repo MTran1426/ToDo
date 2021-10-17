@@ -1,12 +1,18 @@
 .page-header{
     text-align: center;
     padding: 3rem 0;
+    gap: 1rem;
     ul{
         font-size: 1rem;
     }
+    
+    button{
+        background-color: cornflowerblue;
+        margin: 1rem;
+    }
 }
 .title{
-    font-size: 1.25rem;
+    font-size: 4rem;
 }
 
  

@@ -1,0 +1,16 @@
+%ui-base{
+    background-color: rgb(145, 102, 64);
+    font-size: 3rem;
+    padding: 4rem 0;
+    text-align: center;
+}
+
+.ui-header{
+    @extend %ui-base;
+    font-size: 4rem;
+}
+
+.ui-small-header{
+    @extend %ui-base;
+    font-size: 1rem;
+}
