@@ -409,10 +409,7 @@ table th {
 }
 
 .ui-small-header, .ui-header {
-  background-color: cornflowerblue;
-  font-size: 3rem;
-  padding: 4rem 0;
-  text-align: center;
+  background-color: #916640;
 }
 
 .ui-header {
@@ -426,12 +423,17 @@ table th {
 .page-header {
   text-align: center;
   padding: 3rem 0;
+  gap: 1rem;
 }
 .page-header ul {
   font-size: 1rem;
 }
+.page-header button {
+  background-color: cornflowerblue;
+  margin: 1rem;
+}
 
 .title {
-  font-size: 1.25rem;
+  font-size: 4rem;
 }
 /*# sourceMappingURL=styles.css.map */

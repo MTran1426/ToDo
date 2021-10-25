@@ -1,8 +1,7 @@
 .ui-small-header, .ui-header {
-  background-color: #916640;
-  font-size: 3rem;
-  padding: 4rem 0;
-  text-align: center;
+  background-color: #206fa3;
+  margin: auto;
+  padding: 2rem;
 }
 
 .ui-header {
@@ -11,5 +10,18 @@
 
 .ui-small-header {
   font-size: 1rem;
+}
+
+a {
+  background-color: red;
+  color: black;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.ui-tagline {
+  font-size: 3rem;
 }
 /*# sourceMappingURL=header.css.map */
