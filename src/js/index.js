@@ -1,10 +1,10 @@
-//import {Router} from "./Router/router"
-import homePage from './Pages/home';
+import {Router} from "./Router/router"
  
 const app = document.querySelector('#app');
-app.appendChild(homePage())
-//Router(window.location.pathname)
 
+Router(window.location.pathname)
+
+console.log(window.location.pathname)
 
 
 

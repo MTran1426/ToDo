@@ -1,6 +1,6 @@
 import homePage from "../Pages/home";
-import toDoPage from "../Pages/toDoPage";
-import notFound from "../Pages/notFound";
+import toDoPage from "../Pages/toDoPage/toDoPage";
+import notFound from "../Pages/notFound/notFound";
 
 const routes = {
     "/":homePage,
@@ -24,9 +24,9 @@ const Router = function (pathname) {
     {
         app.appendChild(notFound())
     }else{
-        app.appendChild(routes[window.location.pathname])
+        app.appendChild(routes[window.location.pathname]())
     }
         
 }
 
-export {Router}
+export { Router }
