@@ -1,7 +1,7 @@
- import logo from '../../Icons/logo'
- import header from '../../Components/Header/header'
- import makeElement from '../../Utils/makeElement'
- import link from '../../Components/UI/link'
+ import logo from '../../components/icons/logo'
+ import header from '../../components/header/header'
+ import makeElement from '../../utils/makeElement'
+ import link from '../../components/ui/link'
 
 const notFound = function (){
     
@@ -9,7 +9,6 @@ const notFound = function (){
      pageHeader.classList.add('page-header')
      pageHeader.appendChild(makeElement(logo()))
      pageHeader.appendChild(makeElement(header('Error 404, Page not found.')))
-    
      pageHeader.append(makeElement(link("Home", "/")))
 
         
