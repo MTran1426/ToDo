@@ -12,7 +12,7 @@ const homePage = function(){
       pageHeader.appendChild(makeElement(logo()))
       pageHeader.appendChild(makeElement(header('ToDo Calender Planner App')))
       pageHeader.appendChild(makeElement(tagLine('Plan your future plans here')))
-      pageHeader.append(link("Start Planning", "/toDo"))
+      pageHeader.append(link("Start Planning", "/todo"))
       return pageHeader
 
       // const page = document.createElement('div')  

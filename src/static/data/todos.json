@@ -1,5 +1,4 @@
-{
-    "users": [
+ [
         {
             "id": "1",
             "category": "friends",
@@ -100,5 +99,4 @@
             "endDate": "Friday October 29th",
             "endTime":"10:00pm"
         }
-    ]
-}
+]
