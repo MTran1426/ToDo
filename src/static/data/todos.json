@@ -1,7 +1,7 @@
  [
         {
             "id": "1",
-            "category": "friends",
+            "category": "home",
             "title": "Movie Night",
             "isComplete": true,
             "startDate": "Wednesday September 3rd",
@@ -9,19 +9,10 @@
             "endDate": "Thursday September 4th",
             "endTime":"12:00am"
         },
+        
         {
             "id": "2",
-            "category": "friends",
-            "title": "Going for Coffee",
-            "isComplete": false,
-            "startDate": "Monday September 6th",
-            "startTime":"8:00am",
-            "endDate": "Monday September 6th",
-            "endTime":"10:00am"
-        },
-        {
-            "id": "3",
-            "category": "friends",
+            "category": "work",
             "title": "Job Interview at friends place",
             "isComplete": false,
             "startDate": "Wednesday September 8th",
@@ -30,8 +21,8 @@
             "endTime":"1:00pm"
         },
         {
-            "id": "4",
-            "category": "friends",
+            "id": "3",
+            "category": "social",
             "title": "Night out with the boys",
             "isComplete": false,
             "startDate": "Saturday September 18th",
@@ -40,8 +31,8 @@
             "endTime":"9:00am"
         },
         {
-            "id": "5",
-            "category": "friends",
+            "id": "4",
+            "category": "school",
             "title": "Study Group Meeting",
             "isComplete": false,
             "startDate": "Wednesday September 27th",
@@ -50,53 +41,14 @@
             "endTime":"7:00pm"
         },
         {
-            "id": "6",
-            "category": "friends",
-            "title": "Group Lab Meeting",
+            "id": "5",
+            "category": "health",
+            "title": "Doctors Appointment",
             "isComplete": false,
             "startDate": "Monday October 4th",
             "startTime":"1:00pm",
             "endDate": "Monday October 4th",
             "endTime":"3:00pm"
-        },
-        {
-            "id": "7",
-            "category": "friends",
-            "title": "Daniel's Birthday Party",
-            "isComplete": false,
-            "startDate": "Sunday October 10th",
-            "startTime":"11:00am",
-            "endDate": "Sunday October 10th",
-            "endTime":"7:00pm"
-        },
-        {
-            "id": "8",
-            "category": "friends",
-            "title": "West Edmonton Mall Shopping",
-            "isComplete": false,
-            "startDate": "Saturday October 16th",
-            "startTime":"11:00am",
-            "endDate": "Saturday October 16th",
-            "endTime":"4:00pm"
-        },
-        {
-            "id": "9",
-            "category": "friends",
-            "title": "Midterm Study Night",
-            "isComplete": false,
-            "startDate": "Thursday October 21st",
-            "startTime":"6:00pm",
-            "endDate": "Thursday October 21st",
-            "endTime":"9:00pm"
-        },
-        {
-            "id": "10",
-            "category": "friends",
-            "title": "Coding Marathon Night",
-            "isComplete": false,
-            "startDate": "Friday October 29th",
-            "startTime":"3:00pm",
-            "endDate": "Friday October 29th",
-            "endTime":"10:00pm"
         }
+       
 ]
