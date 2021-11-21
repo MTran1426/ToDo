@@ -1,6 +1,7 @@
 %ui-base{
-    background-color: rgb(32, 111, 163);
     margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
     padding: 2rem;
     max-width: 320px;
 }
@@ -8,22 +9,49 @@
 .ui-header{
     @extend %ui-base;
     font-size: 1.5rem;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: rgb(85, 22, 22);
+    color: rgb(111, 114, 80);
 }
 
 
 a {
-    background-color: red;
-    color: black;
+    background-color: rgb(85, 22, 22);
+    color: rgb(111, 114, 80);
+    padding: 7px 9px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 2rem;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+a:hover {
+    background-color: rgb(85, 22, 22);
+    color: rgb(111, 114, 80);
     padding: 14px 25px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 2rem;
+    border: 2px solid black;
+    border-radius: 5px;
 }
 
+
 .ui-tagline{
-    @extend %ui-base;
-    font-size: rem;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    max-width: 320px;
+    padding: 5px 2px;
+    font-size: 1rem;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: rgb(85, 22, 22);
+    color: rgb(111, 114, 80);
 }
 
 .todos {
@@ -31,40 +59,49 @@ a {
 }
 
 .plans {
-    background-color: orange;
+    background-color: rgb(85, 22, 22);
     font-size: 2rem;
-
+    color: rgb(111, 114, 80);
+    max-width: 360px;
+    margin: auto;
 }
 
 li {
+    font-weight: bold;
     list-style-type: none;
     padding: 2rem;
-    display: flex;
-    justify-content: center;
-    background-color: grey;
-    border-left: 5px solid khaki;
+    margin: auto;
+    margin-top: 20px;
+    background-color: rgb(94, 50, 50);
+    max-width: 360px;
+    border-left: 5px solid rgb(111, 114, 80);
     padding: 0 1rem;
+    color: rgb(111, 114, 80);
+    
 }
 
-li h3, li p{
-    margin: 1rem;
-}
+// li h3, li p{
+//     margin: 1rem;
+// }
 
 .ui-button{
-    background-color: blue;
+    
+    background-color: rgb(15, 75, 15);
     color: black;
-    padding: 14px 25px;
+    padding: 1rem;
+    border: 2px solid black;
+    border-radius: 5px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
-    font-size: 2rem;
-    margin: 1rem;
+    font-size: 1rem;
 }
 
 .delete{
     background-color:rosybrown;
     color: black;
     padding: 7px 13px;
+    border: 2px solid black;
+    border-radius: 5px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -73,6 +110,8 @@ li h3, li p{
 .edit{
     background-color: royalblue;
     color: black;
+    border: 2px solid black;
+    border-radius: 5px;
     padding: 7px 13px;
     text-align: center;
     text-decoration: none;

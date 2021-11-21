@@ -1,26 +1,54 @@
-.ui-tagline, .ui-header {
-  background-color: #206fa3;
+.ui-header {
   margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
   padding: 2rem;
   max-width: 320px;
 }
 
 .ui-header {
   font-size: 1.5rem;
+  border: 2px solid black;
+  border-radius: 5px;
+  background-color: #551616;
+  color: #6f7250;
 }
 
 a {
-  background-color: red;
-  color: black;
+  background-color: #551616;
+  color: #6f7250;
+  padding: 7px 9px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 2rem;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+a:hover {
+  background-color: #551616;
+  color: #6f7250;
   padding: 14px 25px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 2rem;
+  border: 2px solid black;
+  border-radius: 5px;
 }
 
 .ui-tagline {
-  font-size: rem;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  max-width: 320px;
+  padding: 5px 2px;
+  font-size: 1rem;
+  border: 2px solid black;
+  border-radius: 5px;
+  background-color: #551616;
+  color: #6f7250;
 }
 
 .todos {
@@ -28,43 +56,43 @@ a {
 }
 
 .plans {
-  background-color: orange;
+  background-color: #551616;
   font-size: 2rem;
+  color: #6f7250;
+  max-width: 360px;
+  margin: auto;
 }
 
 li {
+  font-weight: bold;
   list-style-type: none;
   padding: 2rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  background-color: grey;
-  border-left: 5px solid khaki;
+  margin: auto;
+  margin-top: 20px;
+  background-color: #5e3232;
+  max-width: 360px;
+  border-left: 5px solid #6f7250;
   padding: 0 1rem;
-}
-
-li h3, li p {
-  margin: 1rem;
+  color: #6f7250;
 }
 
 .ui-button {
-  background-color: blue;
+  background-color: #0f4b0f;
   color: black;
-  padding: 14px 25px;
+  padding: 1rem;
+  border: 2px solid black;
+  border-radius: 5px;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
-  font-size: 2rem;
-  margin: 1rem;
+  font-size: 1rem;
 }
 
 .delete {
   background-color: rosybrown;
   color: black;
   padding: 7px 13px;
+  border: 2px solid black;
+  border-radius: 5px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -73,6 +101,8 @@ li h3, li p {
 .edit {
   background-color: royalblue;
   color: black;
+  border: 2px solid black;
+  border-radius: 5px;
   padding: 7px 13px;
   text-align: center;
   text-decoration: none;
