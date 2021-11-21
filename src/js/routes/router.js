@@ -1,10 +1,12 @@
 import homePage from "../pages/home";
 import toDoPage from "../pages/toDoPage/toDoPage";
 import notFound from "../pages/notFound/notFound";
+import deletePage from "../pages/deletePage/deletePage";
 
 const routes = {
     "/":homePage,
-    "/todo":toDoPage
+    "/todo":toDoPage,
+    "/delete":deletePage
 }
 
 const Router = function (pathname) {
