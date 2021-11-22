@@ -7,8 +7,12 @@ function createStore (data=[]){
     return null
 }
 
+function updateStore(newStore){
+    store = [...newStore]
+}
+
 function getStore(){
     return store
 }
 
-export {createStore, getStore}
+export {createStore, getStore, updateStore}

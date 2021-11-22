@@ -1,7 +1,10 @@
-const button = function (title="uiButton", className='ui-button') {
+import styles from './styles.module.scss'
+//import makeElement from '../../utils/makeElement'
 
-    const element = `<button class="${className}">${title}</button>`
+const button = function (title="uiButton", uiStyles) { //className='ui-button
 
+    const element = `<button class="${styles.uiStyles || styles.baseButton}">${title}</button>`
+    //const element = makeElement(template);
     return element
 }
 

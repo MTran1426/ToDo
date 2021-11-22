@@ -1,0 +1,33 @@
+.baseButton{
+    background-color: rgb(15, 75, 15);
+    color: black;
+    padding: 1rem;
+    border: 2px solid black;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1rem;
+    margin-top: 20px;
+}
+
+.cancel{
+    background-color: rgb(80, 95, 80);
+    color: black;
+    padding: 1rem;
+    border: 2px solid black;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.delete{
+    background-color: crimson;
+    color: black;
+    padding: 1rem;
+    border: 2px solid black;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1rem;
+}

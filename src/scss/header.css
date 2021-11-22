@@ -76,17 +76,6 @@ li {
   color: #6f7250;
 }
 
-.ui-button {
-  background-color: #0f4b0f;
-  color: black;
-  padding: 1rem;
-  border: 2px solid black;
-  border-radius: 5px;
-  text-align: center;
-  text-decoration: none;
-  font-size: 1rem;
-}
-
 .delete {
   background-color: rosybrown;
   color: black;
@@ -107,5 +96,31 @@ li {
   text-align: center;
   text-decoration: none;
   display: inline-block;
+}
+
+.edit-form {
+  max-width: 360px;
+  margin: auto;
+  color: gray;
+  background-color: #551616;
+}
+.edit-form label {
+  margin: auto;
+}
+.edit-form input {
+  margin-bottom: 1rem;
+}
+
+.add-form {
+  max-width: 360px;
+  margin: auto;
+  color: gray;
+  background-color: #551616;
+}
+.add-form label {
+  margin: auto;
+}
+.add-form input {
+  margin-bottom: 1rem;
 }
 /*# sourceMappingURL=header.css.map */
